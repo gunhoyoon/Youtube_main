@@ -1,47 +1,21 @@
-# Getting Started with Create React App
+# 유튜브 프로젝트
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> 유튜브 api key를 발급받아 만든 프로젝트 입니다.
 
-## Available Scripts
+# 사용 기술
 
-In the project directory, you can run:
+> TypeScript , Postman
 
-### `npm start`
+> 인프런의 캡틴 판교 타입 스크립트 강의를 듣고 처음으로
+> 타입스크립트를 적용한 의미있는 프로젝트였습니다.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+> 서버 프로그램이 들어온 API 요청에 대해서 제대로 동작하는지
+> 쉽게 확인하기 위해 포스트맨을 사용하였습니다.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 프로젝트 실행 방법
 
-### `npm test`
+> 터미널 경로 Youtude_TS-main
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> npm install
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-# Youtude_TS
+> npm start
