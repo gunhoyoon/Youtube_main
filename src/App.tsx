@@ -37,7 +37,7 @@ const App: FC<Props> = ({ youtube }) => {
     search("");
     setSelectedVideo(null);
   };
-  //인풋벨류
+
   //처음 로딩데이터
   useEffect(() => {
     youtube.mostPopular().then((video) => setVideos(video));
