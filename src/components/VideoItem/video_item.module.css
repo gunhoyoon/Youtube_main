@@ -1,0 +1,43 @@
+.container {
+  padding: 0.2em;
+}
+.container.grid {
+  width: 50%;
+}
+.container.list {
+  width: 100%;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  transition: transform 250ms ease-in;
+  box-shadow: 6px 6px 14px -5px rgba(0, 0, 0, 0.58);
+}
+.video:hover {
+  transform: scale(1.02);
+}
+.thumbnail {
+  width: 40%;
+  height: 100%;
+}
+.metadata {
+  margin-left: 0.2em;
+}
+.title {
+  font-size: 1rem;
+  margin: 0 0 0 0.1em;
+  font-weight: 400;
+}
+.channel {
+  font-size: 0.8rem;
+
+  margin: 0.7em 0 0 0.3em;
+}
+.channel {
+  font-size: 0.6rem;
+}
